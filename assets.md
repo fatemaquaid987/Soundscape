@@ -10,7 +10,7 @@
 |Camera clicks                 |                               record |
 |splashing of water            |                               record |
 |walking on the deck            |                              record |
-|background music                                             https://www.soundsnap.com  |
+|background music                 |                            https://www.soundsnap.com  |
 |sound of wearing life jackets and snorkeling gear   |         record |
 |screaming in water               |                            record(own voice) |
 |rain (optional)                   |                           record |
