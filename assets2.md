@@ -3,12 +3,12 @@ Created assets:
 |needed     |       source|
 |----------|---------------|
 |screams   |         Record my voice|
-|Friends chit chat| Record friends voice including me|
-|Wind |     Record while in car and on highway|
+|friends chit chat| Record friends voice including me|
+|wind |     Record while in car and on highway|
 |car sound on highway | record while in car and on highway|
-|Ghost laughter sound     |  record my voice|
-|Ghost running sound |      record myself running|
-|Ghost whisper |           record my voice|
+|ghost laughter sound     |  record my voice|
+|ghost running sound |      record myself running|
+|ghost whisper |           record my voice|
 |footsteps sound | record my footsteps|
 |female voice (Main Character) | record my voice|
 | utensils falling /metal clinging | record at home|
