@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="horror-night_data" version="1.3.0" audacityversion="2.3.2" sel0="45.0415447973" sel1="58.4848101034" vpos="0" h="0.0000000000" zoom="9.3913297580" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="horror-night_data" version="1.3.0" audacityversion="2.3.2" sel0="66.6994725907" sel1="76.7695632937" vpos="1472" h="0.0000000000" zoom="4.6956648790" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
 	<tags/>
-	<wavetrack name="Audio Track" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="0.707946" pan="0.0" colorindex="0">
+	<wavetrack name="Audio Track" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="0.707946" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="894860">
 				<waveblock start="0">
@@ -47,16 +47,27 @@
 					<simpleblockfile filename="e0802611.au" len="262144" min="-0.35989" max="0.310194" rms="0.027941"/>
 				</waveblock>
 				<waveblock start="1353616">
-					<simpleblockfile filename="e0802efc.au" len="262144" min="-0.55261" max="0.63842" rms="0.088037"/>
+					<simpleblockfile filename="e080008d.au" len="165352" min="-0.55261" max="0.63842" rms="0.100487"/>
 				</waveblock>
-				<waveblock start="1615760">
-					<simpleblockfile filename="e0802f2f.au" len="68560" min="-0.509449" max="0.471344" rms="0.079917"/>
+				<waveblock start="1518968">
+					<simpleblockfile filename="e0800d24.au" len="165352" min="-0.509449" max="0.559198" rms="0.069556"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="58.48480139" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="362267">
+				<waveblock start="0">
+					<simpleblockfile filename="e0800979.au" len="146853" min="-0.033747" max="0.035327" rms="0.003803"/>
+				</waveblock>
+				<waveblock start="146853">
+					<simpleblockfile filename="e08008d2.au" len="215414" min="-0.12857" max="0.140167" rms="0.011976"/>
 				</waveblock>
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="Audio Track" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="0.707946" pan="0.0" colorindex="0">
+	<wavetrack name="Audio Track" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="0.707946" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="894860">
 				<waveblock start="0">
@@ -101,10 +112,21 @@
 					<simpleblockfile filename="e08022c0.au" len="262144" min="-0.359733" max="0.31011" rms="0.027942"/>
 				</waveblock>
 				<waveblock start="1353616">
-					<simpleblockfile filename="e0802fdd.au" len="262144" min="-0.552958" max="0.638811" rms="0.088046"/>
+					<simpleblockfile filename="e08003fd.au" len="165352" min="-0.552958" max="0.638811" rms="0.100492"/>
 				</waveblock>
-				<waveblock start="1615760">
-					<simpleblockfile filename="e0802b32.au" len="68560" min="-0.51016" max="0.470901" rms="0.079916"/>
+				<waveblock start="1518968">
+					<simpleblockfile filename="e0800e06.au" len="165352" min="-0.51016" max="0.559238" rms="0.069565"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="58.48480139" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="362267">
+				<waveblock start="0">
+					<simpleblockfile filename="e0800969.au" len="146853" min="-0.033731" max="0.03533" rms="0.003803"/>
+				</waveblock>
+				<waveblock start="146853">
+					<simpleblockfile filename="e0800a20.au" len="215414" min="-0.128531" max="0.140195" rms="0.011977"/>
 				</waveblock>
 			</sequence>
 			<envelope numpoints="0"/>
@@ -138,7 +160,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="425849__soundholder__renault-master-f3500-dci135-exterior-sudden-stop-and-acceleration-mono-follow (1)" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+	<wavetrack name="car sound on highway" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="463070">
 				<waveblock start="0">
@@ -193,7 +215,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="425849__soundholder__renault-master-f3500-dci135-exterior-sudden-stop-and-acceleration-mono-follow (1)" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="96000" gain="0.1" pan="0.0" colorindex="0">
+	<wavetrack name="car stop" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="96000" gain="0.1" pan="0.0" colorindex="0">
 		<waveclip offset="7.70919310" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="766273">
 				<waveblock start="0">
@@ -212,7 +234,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="326400__mornedelport__key-turning-key-turning-in-car-ignition-sfx" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
+	<wavetrack name="car keys " channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="20.48103685" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="301187">
 				<waveblock start="0">
@@ -225,7 +247,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="326400__mornedelport__key-turning-key-turning-in-car-ignition-sfx" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
+	<wavetrack name="car keys " channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="20.48103685" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="301187">
 				<waveblock start="0">
@@ -238,7 +260,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="86232__nmscher__car-door-open-close" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="48000" gain="0.398107" pan="0.0" colorindex="0">
+	<wavetrack name="car door close" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="48000" gain="0.398107" pan="0.0" colorindex="0">
 		<waveclip offset="27.31468750" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="171470">
 				<waveblock start="0">
@@ -644,7 +666,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="262257__gowlermusic__horror-sounds" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+	<wavetrack name="horror tense music" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="3923695">
 				<waveblock start="0">
@@ -699,7 +721,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="262257__gowlermusic__horror-sounds" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+	<wavetrack name="horror tense music" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="3923695">
 				<waveblock start="0">
@@ -786,8 +808,8 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="Beacon St 4" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
-		<waveclip offset="30.66657596" colorindex="0">
+	<wavetrack name="door knock" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="29.60176870" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="1058019">
 				<waveblock start="0">
 					<simpleblockfile filename="e0800ec5.au" len="168227" min="-0.044105" max="0.042641" rms="0.007137"/>
@@ -803,6 +825,90 @@
 				</waveblock>
 				<waveblock start="875267">
 					<simpleblockfile filename="e080047b.au" len="182752" min="-0.667415" max="0.760269" rms="0.030417"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="door opening" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.122018" pan="0.0" colorindex="0">
+		<waveclip offset="79.55189889" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="262468">
+				<waveblock start="0">
+					<simpleblockfile filename="e08008ea.au" len="262144" min="-0.066832" max="0.083534" rms="0.010177"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e08004c6.au" len="324" min="-0.011385" max="0.009001" rms="0.006305"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="door opening" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.122018" pan="0.0" colorindex="0">
+		<waveclip offset="79.55189889" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="262468">
+				<waveblock start="0">
+					<simpleblockfile filename="e0800fc8.au" len="262144" min="-0.066832" max="0.083534" rms="0.010177"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e080070a.au" len="324" min="-0.011385" max="0.009001" rms="0.006305"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Short Dial Tone-SoundBible.com-1911037576" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="0.199526" pan="0.0" colorindex="0">
+		<waveclip offset="72.08439323" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="460800">
+				<waveblock start="0">
+					<simpleblockfile filename="e0800cf4.au" len="184320" min="-0.615949" max="0.560504" rms="0.251819"/>
+				</waveblock>
+				<waveblock start="184320">
+					<simpleblockfile filename="e0800781.au" len="184320" min="-0.615949" max="0.560504" rms="0.251819"/>
+				</waveblock>
+				<waveblock start="368640">
+					<simpleblockfile filename="e080098e.au" len="92160" min="-0.615949" max="0.560504" rms="0.251819"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Short Dial Tone-SoundBible.com-1911037576" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="0.199526" pan="0.0" colorindex="0">
+		<waveclip offset="72.08439323" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="460800">
+				<waveblock start="0">
+					<simpleblockfile filename="e0800a37.au" len="184320" min="-0.702534" max="0.681204" rms="0.274996"/>
+				</waveblock>
+				<waveblock start="184320">
+					<simpleblockfile filename="e0800fa9.au" len="184320" min="-0.702534" max="0.681204" rms="0.274996"/>
+				</waveblock>
+				<waveblock start="368640">
+					<simpleblockfile filename="e0800f5b.au" len="92160" min="-0.702534" max="0.681204" rms="0.274996"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="dialing number" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="15.848932" pan="0.0" colorindex="0">
+		<waveclip offset="66.69947846" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="444091">
+				<waveblock start="0">
+					<simpleblockfile filename="e08006c0.au" len="262144" min="-0.010876" max="0.011845" rms="0.002302"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e08009aa.au" len="181947" min="-0.009631" max="0.009356" rms="0.001838"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="dialing number" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="15.848932" pan="0.0" colorindex="0">
+		<waveclip offset="66.69947846" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="444091">
+				<waveblock start="0">
+					<simpleblockfile filename="e0800238.au" len="262144" min="-0.010876" max="0.011845" rms="0.002302"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e08008f7.au" len="181947" min="-0.009631" max="0.009356" rms="0.001838"/>
 				</waveblock>
 			</sequence>
 			<envelope numpoints="0"/>
